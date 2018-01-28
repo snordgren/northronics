@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/snordgren/northronics#readme",
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "preact": "^8.2.7",
+    "preact-compat": "^3.18.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

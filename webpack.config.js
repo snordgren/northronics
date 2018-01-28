@@ -17,5 +17,11 @@ module.exports = {
       }
     ]
   },
-  plugins: [new UglifyJsPlugin()]
+  plugins: [new UglifyJsPlugin()],
+  resolve: {
+    alias: {
+      'react': 'preact-compat',
+      'react-dom': 'preact-compat'
+    }
+  }
 };
