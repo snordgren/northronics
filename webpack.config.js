@@ -1,9 +1,10 @@
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+
 module.exports = {
   entry: ['./src/App.js'],
   output: {
     filename: './dist/bundle.js'
   },
-  devtool: 'source-map',
   module: {
     rules: [
       {
@@ -15,5 +16,6 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  plugins: [new UglifyJsPlugin()]
 };
