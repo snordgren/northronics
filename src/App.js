@@ -30,7 +30,7 @@ function App(props) {
         <Product
           name="Spark Rush"
           link="https://play.google.com/store/apps/details?id=com.northronics.sparkrush"
-          desc={coinClickerDesc} />
+          desc={sparkRushDesc} />
       </main>
     </Fragment>
   );
